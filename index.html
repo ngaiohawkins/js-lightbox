@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JS Lightbox Example</h1>
+    <div class="gallery">
+        <img src="image0.jpeg" alt="Photo 1" class="thumbnail">
+        <img src="image1.jpeg" alt="Photo 2" class="thumbnail">
+        <img src="image2.jpeg" alt="Photo 3" class="thumbnail">
+        <img src="image3.jpeg" alt="Photo 4" class="thumbnail">
+        <img src="image4.jpeg" alt="Photo 5" class="thumbnail">
+        <img src="image5.jpeg" alt="Photo 5" class="thumbnail">
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
